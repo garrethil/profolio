@@ -1,6 +1,8 @@
 
 function About() {
-    return (
+  const headshot = '../../public/headshot.jpg'  
+  
+  return (
         <div style={{
             display: 'flex',
             flexDirection: 'column',
@@ -11,8 +13,8 @@ function About() {
             borderRadius: '10px'
         }}>
             <img
-                src="https://via.placeholder.com/150"
-                alt="Profile"
+                src={headshot}
+                alt="Profile Picture"
                 style={{
                     width: '150px',
                     height: '150px',
