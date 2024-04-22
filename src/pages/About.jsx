@@ -1,17 +1,9 @@
 
 function About() {
-  const headshot = '../../public/headshot.jpg'  
+  const headshot = 'headshot.jpg'  
   
   return (
-        <div style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            margin: '20px',
-            padding: '20px',
-            boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-            borderRadius: '10px'
-        }}>
+        <div className="container">
             <img
                 src={headshot}
                 alt="Profile Picture"

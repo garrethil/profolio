@@ -1,15 +1,19 @@
+import projectData from '../assets/data';
+import Project from '../components/Project';
+import '../css/portfolio.css'
+
 export default function Portfolio() {
     return (
-      <div>
-        <h1>Portfolio Page</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </p>
+      <div className="container">
+      <div className="row">
+          {projectData.map((project, index) => (
+              <div className="col-sm-12 col-md-6 col-lg-4 my-3" key={index}>
+                  <Project image={project.image} title={project.title} desc={project.desc} repo={project.repo} link={project.link} />
+              </div>
+          ))}
       </div>
+  </div>
+
+
     );
   }

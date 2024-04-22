@@ -1,0 +1,57 @@
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+
+.header {
+  display: flex;        /* Enables flexbox layout */
+  align-items: center;  /* Vertically centers the items in the container */
+  justify-content: space-between; /* Spreads the name and the nav apart */
+  padding: 0.5em;      /* Optional: Adds some padding around the items */
+}
+
+#name {
+  margin: 0;           /* Removes margin from the h1 for better control */
+  font-size: 1.5em;    /* Adjust the size as needed */
+}
+
+.nav-link {
+  text-decoration: none; /* Removes underline from links */
+  color: black;         /* Sets the color of the link text, change as needed */
+  padding: 0.5em;       /* Adds padding around the link text */
+}
+
+.nav-link:hover {
+  color: #0056b3;      /* Change the color on hover, optional */
+}

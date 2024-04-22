@@ -2,8 +2,9 @@
 
 function Contact() {
     return (
-        <form>
-            <div>
+        <form className="container">
+            <div className="contact">
+            <div className="m-2 p-2">
                 <label htmlFor="name">Name:</label>
                 <input
                     type="text"
@@ -12,7 +13,7 @@ function Contact() {
                     required
                 />
             </div>
-            <div>
+            <div className="m-2 p-2">
                 <label htmlFor="email">Email:</label>
                 <input
                     type="email"
@@ -21,15 +22,17 @@ function Contact() {
                     required
                 />
             </div>
-            <div>
+            <div className="m-2 p-2">
                 <label htmlFor="message">Message:</label>
                 <textarea
                     id="message"
                     name="message"
                     required
                 />
+            </div >
+            <button type="submit" className="m-2 p-2">Submit</button>
             </div>
-            <button type="submit">Submit</button>
+            
         </form>
     );
 }

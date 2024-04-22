@@ -1,0 +1,15 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px; /* Adjust padding as needed */
+}
+
+.footer-links {
+  list-style: none; /* Removes default list styling */
+  padding: 0; /* Removes default padding */
+  display: flex; /* Makes the list horizontal */
+  justify-content: center; /* Centers the list items horizontally */
+  gap: 20px; /* Adds space between each link */
+}
