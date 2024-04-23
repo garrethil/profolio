@@ -3,8 +3,10 @@
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    background-color: rgb(140, 157, 175);
+    color: rgb(38, 43, 56);
+    font-family: "Josefin Sans", sans-serif;;
   }
-  
 
 .container {
     display: flex;

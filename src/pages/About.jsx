@@ -1,6 +1,6 @@
 
 function About() {
-  const headshot = 'headshot.jpg'  
+  const headshot = 'project-images/headshot.jpg'  
   
   return (
         <div className="container">

@@ -4,7 +4,7 @@
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    height: 300px; /* Adjust based on your design requirements */
+    height: 270px; /* Adjust based on your design requirements */
     transition: box-shadow 0.3s ease-in-out;
     border: 1px solid #ccc;
     display: flex;
@@ -30,4 +30,8 @@
   
   .project-card:hover .hidden-info {
     transform: translateY(0); /* Slide up to reveal details */
+  }
+
+  #hiddenCard {
+    background: black;
   }

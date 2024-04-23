@@ -5,7 +5,7 @@
     transition: filter 300ms;
   }
   .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+    filter: drop-shadow(0 0 2em #4c59b1aa);
   }
   .logo.react:hover {
     filter: drop-shadow(0 0 2em #61dafbaa);
@@ -47,11 +47,29 @@
 }
 
 .nav-link {
-  text-decoration: none; /* Removes underline from links */
-  color: black;         /* Sets the color of the link text, change as needed */
-  padding: 0.5em;       /* Adds padding around the link text */
+    display: inline-block;
+    position: relative;
+    color: #000; /* Change as needed */
+    text-decoration: none;
+    overflow: hidden; /* Ensures the pseudo-elements are clipped */
+    vertical-align: top;      /* Adds padding around the link text */
 }
 
-.nav-link:hover {
-  color: #0056b3;      /* Change the color on hover, optional */
+.nav-link::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #3498db; /* Change the color as needed */
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+    color: #1e313e;
+    visibility: visible;
+    width: 100%;
+    left: 0;
 }
