@@ -1,8 +1,17 @@
-# React + Vite
+# Profolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+  ## Description
+  This page is my personal portfolio to  display my work and knowledge as a full-stack web developer to pears or future employers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Usage
+  The user may navigate through any of the about, portfolio, resume or contact page where the corresponding info is available. My links to my github, LinkedIn and Stack Overflow are always available in the footer of each page.  
+
+  ## License
+  MIT License.
+
+  ## Questions
+  For any further questions you may contact me at this email: garrethildebrandt@gmail.com
+
+  [Github Profile](https://github.com/garrethil)
