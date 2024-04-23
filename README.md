@@ -8,6 +8,8 @@
   ## Usage
   The user may navigate through any of the about, portfolio, resume or contact page where the corresponding info is available. My links to my github, LinkedIn and Stack Overflow are always available in the footer of each page.  
 
+  [deployed link](https://profolio-1-rxnk.onrender.com)
+
   ## License
   MIT License.
 
