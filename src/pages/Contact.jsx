@@ -2,7 +2,12 @@ import '../css/contact.css';
 
 function Contact() {
     return (
+
+      
         <form className="container">
+            <h3>
+                Reach Out with any Questions or Opportunities
+            </h3>
             <div className="contact">
             <div className="m-2 p-2">
                 <label htmlFor="name">Name:</label>

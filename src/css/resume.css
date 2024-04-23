@@ -1,0 +1,22 @@
+
+
+.resumeContainer {
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 70vh;
+}
+
+.resumeContainer ul {
+    list-style-type: none;
+}
+
+.resumeDownload:hover {
+    color: rgb(140, 109, 30);
+}
